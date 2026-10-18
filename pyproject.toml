@@ -7,7 +7,14 @@ authors = [
     { name = "ghouf", email = "ghouf@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "emoji>=2.16.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "pyarabic>=0.6.15",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
 
 [project.scripts]
 hanwritten-code-for-llm-finetuning = "hanwritten_code_for_llm_finetuning:main"
