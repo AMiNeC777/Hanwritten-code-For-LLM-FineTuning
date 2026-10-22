@@ -21,6 +21,7 @@ dependencies = [
     "pyarabic>=0.6.15",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
+    "setuptools<72",
 ]
 
 [project.scripts]
