@@ -6,14 +6,18 @@ readme = "README.md"
 authors = [
     { name = "ghouf", email = "ghouf@users.noreply.github.com" }
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.11"
 dependencies = [
     "arabic-emojipedia>=1.0.4",
+    "deep-translator>=1.11.4",
     "emoji>=2.16.0",
     "emojis>=0.7.0",
+    "gensim>=4.4.0",
     "googletrans>=4.0.2",
+    "ipython>=9.17.1",
     "matplotlib>=3.11.2",
     "pandas>=3.0.6",
+    "pathlib>=1.0.1",
     "pyarabic>=0.6.15",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
